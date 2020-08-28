@@ -55,7 +55,7 @@ struct Node *insertionAfterNode(struct Node *prevNode, int data){
     
     ptr->next=prevNode->next;
     prevNode->next=ptr;
-   
+    
     
     return ptr;
 
@@ -108,7 +108,7 @@ int main(){
     // head = insertionAtIndex(head,148,4);
     // head = insertionAttheHead(head, 89);
     // head = insertionAtEnd(head, 963);
-    // fourth = insertionAfterNode(third, 645);
+    fourth = insertionAfterNode(third, 645);
     linkedListTraversal(head);
 
     
