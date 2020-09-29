@@ -85,7 +85,7 @@ struct Node *deleteAfteraNode(struct Node *head, int value){
 
 struct Node *deleteAfteraNode2(struct Node *head, struct Node *preNode){
     struct Node *ptrx = head;
-    struct Node *ptry = ptrx->next;
+    struct Node *ptry = head->next;
     
     while(ptry!=preNode)
     {
@@ -134,7 +134,8 @@ int main(){
     // head = deleteFirst(head);
     // head = deleteAtIndex(head, 2);
     // head = deleteAttheEnd(head);
-    fourth = deleteAfteraNode2(head, second);
+    // fourth = deleteAfteraNode2(head, second);
+    third = deleteAfteraNode(head, 121);
     linkedListTraversal(head);
 
     return 0;

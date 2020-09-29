@@ -105,10 +105,10 @@ int main(){
     fourth->data = 147;
     fourth->next = NULL;
 
-    // head = insertionAtIndex(head,148,4);
+    head = insertionAtIndex(head,148,3);
     // head = insertionAttheHead(head, 89);
-    // head = insertionAtEnd(head, 963);
-    fourth = insertionAfterNode(third, 645);
+    head = insertionAtEnd(head, 963);
+    // fourth = insertionAfterNode(third, 645);
     linkedListTraversal(head);
 
     
